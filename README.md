@@ -15,7 +15,7 @@ Zod 4 includes native JSON Schema support via `z.toJSONSchema()`, but there's no
 
 ```bash
 # Clone and install
-git clone https://github.com/YOUR_USERNAME/zod-to-json-schema.git
+git clone https://github.com/ItzRoBeerT/zod-to-json-schema.git
 cd zod-to-json-schema
 npm install
 

@@ -1,0 +1,38 @@
+{
+  "name": "zod-to-json-schema",
+  "version": "1.0.0",
+  "description": "CLI tool to convert Zod 4 schemas to JSON Schema",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "zod-to-json-schema": "./bin/zod-to-json.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "keywords": [
+    "zod",
+    "json-schema",
+    "typescript",
+    "cli",
+    "schema-converter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "glob": "^11.0.0",
+    "zod": "^3.25.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
